@@ -1,7 +1,7 @@
 
 # 🚀 **Mysterious File Upload Journey: Breaking PDF.js and Grabbing the Flag**
 
-![Challenge Banner](https://via.placeholder.com/1200x400.png?text=Mysterious+File+Upload+Journey)
+![Challenge Banner](https://media1.tenor.com/m/54mjjpuowCgAAAAd/ninjala-jane.gif)
 
 ### **Challenge Information**
 - **Name:** Navigate a Mysterious File Upload Journey  
@@ -27,7 +27,7 @@ This writeup details how we explored a file upload challenge to bypass security 
 ### **1️⃣ Homepage**
 The homepage presents a **login/register** feature and a basic upload interface.
 
-![Homepage Screenshot](https://media1.tenor.com/m/54mjjpuowCgAAAAd/ninjala-jane.gif)
+![Homepage Screenshot](file:///goinfre/1_siGDgDwLDubjrv_6xkE5iQ-ezgif.com-webp-to-png-converter.png)
 
 ### **2️⃣ Upload Feature**
 Upon logging in, we access the **upload form**. The filter applied here is based only on **MIME type** validation, making it susceptible to tampering.
