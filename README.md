@@ -27,7 +27,7 @@ This writeup details how we explored a file upload challenge to bypass security 
 ### **1️⃣ Homepage**
 The homepage presents a **login/register** feature and a basic upload interface.
 
-![Homepage Screenshot](file:///goinfre/1_siGDgDwLDubjrv_6xkE5iQ-ezgif.com-webp-to-png-converter.png)
+![Homepage Screenshot](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*siGDgDwLDubjrv_6xkE5iQ.png)
 
 ### **2️⃣ Upload Feature**
 Upon logging in, we access the **upload form**. The filter applied here is based only on **MIME type** validation, making it susceptible to tampering.
