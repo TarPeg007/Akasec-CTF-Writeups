@@ -27,7 +27,8 @@
 
 ## 🌍 Background
 
-///Users/sfellahi/Desktop/Akasec-CTF-Writeups/Screen Shot 2024-11-26 at 11.47.53 AM.png
+![Homepage Screenshot](https://github.com/TarPeg007/Akasec-CTF-Writeups/blob/master/photos/Screen%20Shot%202024-11-26%20at%2011.47.53%20AM.png)
+
 ### The Cybersecurity Landscape  
 In the world of cybersecurity, seemingly secure systems often hide subtle vulnerabilities. This challenge exemplifies how a small implementation detail can compromise an entire security model.
 
