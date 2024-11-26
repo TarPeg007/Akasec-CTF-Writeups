@@ -9,7 +9,9 @@ This repository contains a detailed solution to the **"Trenbolone Acetate"** cry
 **Name:** Trenbolone Acetate  
 **Difficulty:** Medium  
 **Category:** Cryptography  
-**Description:**  
+**Description:**
+i already solve it so you can't call me a script kiddie(.)
+![Homepage Screenshot](https://github.com/TarPeg007/Akasec-CTF-Writeups/blob/master/photos/Screen%20Shot%202024-11-26%20at%201.43.21%20PM.png?raw=true)
 The challenge presents a flawed implementation of RSA encryption where the modulus \( N \) is updated incrementally by adding new primes during each encryption step. Our goal is to exploit the weakness in the implementation to recover the flag.
 ![Homepage Screenshot](https://github.com/TarPeg007/Akasec-CTF-Writeups/blob/master/photos/Screen%20Shot%202024-11-26%20at%201.27.29%20PM.png?raw=true)
 ---
