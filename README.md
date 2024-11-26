@@ -47,6 +47,8 @@ This weakness invites further exploration, but before rushing into bypasses, we 
 ## **⚙️ Understanding the Bot**
 - **Behavior:** The admin bot visits **local URLs** shared through the application, verified using a **regex filter**.  
 - **Access Scope:** The bot has privileged access to the `/flag` endpoint, which is restricted to **local IPs only (127.0.0.1)**.
+![Homepage Screenshot](https://miro.medium.com/v2/resize:fit:960/format:webp/1*9R8YFbmMSyRV_vfyxkuFVQ.png)
+
 
 ---
 
@@ -73,6 +75,8 @@ The payload injects JavaScript by escaping parentheses in the `FontMatrix` field
 ### **Steps to Create the PDF**
 1. Use a PDF generation tool (e.g., [PDFEdit](https://pdfedit.cz/) or Python libraries like `fpdf`) to embed the exploit.
 2. Ensure all parentheses are escaped to prevent premature interpretation.
+//https://miro.medium.com/v2/resize:fit:1400/format:webp/1*uwr9x8LSQH1oV2lWG9WHOg.png
+![Homepage Screenshot](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*uwr9x8LSQH1oV2lWG9WHOg.png)
 
 ---
 
@@ -80,6 +84,7 @@ The payload injects JavaScript by escaping parentheses in the `FontMatrix` field
 1. Upload the malicious PDF file.
 2. Grab the file's URL and modify it to point to `127.0.0.1:5000/view/<filename>` for local bot access.
 3. Send the URL to the bot via the provided reporting feature.
+![Homepage Screenshot](https://miro.medium.com/v2/resize:fit:1238/format:webp/1*y3P4Mjc308n5xTHcAuZPCg.png)
 
 ```plaintext
 POST /report
