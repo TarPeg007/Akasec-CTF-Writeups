@@ -38,6 +38,7 @@ if (file.mimeType === 'application/pdf') {
     // Allow upload
 }
 ```
+![Homepage Screenshot](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*peqYpT6c7tgO05KshrvWAg.png)
 
 This weakness invites further exploration, but before rushing into bypasses, we check additional features.
 
