@@ -27,7 +27,7 @@ This writeup details how we explored a file upload challenge to bypass security 
 ### **1️⃣ Homepage**
 The homepage presents a **login/register** feature and a basic upload interface.
 
-![Homepage Screenshot](https://via.placeholder.com/600x300.png?text=Homepage+Mockup)
+![Homepage Screenshot](https://media1.tenor.com/m/54mjjpuowCgAAAAd/ninjala-jane.gif)
 
 ### **2️⃣ Upload Feature**
 Upon logging in, we access the **upload form**. The filter applied here is based only on **MIME type** validation, making it susceptible to tampering.
