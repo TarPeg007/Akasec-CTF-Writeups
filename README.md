@@ -75,7 +75,7 @@ The payload injects JavaScript by escaping parentheses in the `FontMatrix` field
 ### **Steps to Create the PDF**
 1. Use a PDF generation tool (e.g., [PDFEdit](https://pdfedit.cz/) or Python libraries like `fpdf`) to embed the exploit.
 2. Ensure all parentheses are escaped to prevent premature interpretation.
-//https://miro.medium.com/v2/resize:fit:1400/format:webp/1*uwr9x8LSQH1oV2lWG9WHOg.png
+
 ![Homepage Screenshot](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*uwr9x8LSQH1oV2lWG9WHOg.png)
 
 ---
